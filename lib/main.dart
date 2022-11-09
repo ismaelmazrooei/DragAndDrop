@@ -10,11 +10,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'اسشتنابتنسابتنایتنسباتناتنباتینا Demo',
+      title: 'جلیل',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter  Drag and Drop'),
+      home: const MyHomePage(title: 'دراگ اند دراپ'),
     );
   }
 }
