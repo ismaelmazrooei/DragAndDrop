@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'دراگ اند دراپ'),
+      home: const MyHomePage(title: 'سلام بر اسماعیل '),
     );
   }
 }
@@ -114,9 +114,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       ) {
                         return Container(
                             decoration: BoxDecoration(
-                          
                           border: Border.all(
-
                             color: Colors.blue,
                           ),
                           borderRadius: BorderRadius.all(_isDragging
