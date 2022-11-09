@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Drag and Drop'),
+      home: const MyHomePage(title: 'Flutter  Drag and Drop'),
     );
   }
 }
