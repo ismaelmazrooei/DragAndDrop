@@ -33,6 +33,10 @@ class _MyHomePageState extends State<MyHomePage> {
   bool _isDragging = false;
 
   void _acceptDraggedItem(int index) {
+    Text(
+      'jjhdsjfhjkhjsdk',
+      style: TextStyle(fontSize: 14),
+    );
     setState(() {
       _indexOfDroppedItem = index;
     });
