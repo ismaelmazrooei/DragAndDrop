@@ -71,15 +71,6 @@ class _MyHomePageState extends State<MyHomePage> {
               child: index == _indexOfDroppedItem
                   ? Draggable<int>(
                       data: index,
-                      child: Container(
-                        decoration: BoxDecoration(
-                            color: Colors.blue,
-                            border: Border.all(
-                              color: Colors.blue,
-                            ),
-                            borderRadius:
-                                const BorderRadius.all(Radius.circular(10))),
-                      ),
                       childWhenDragging: Container(
                         decoration: BoxDecoration(
                             border: Border.all(
@@ -105,6 +96,15 @@ class _MyHomePageState extends State<MyHomePage> {
                             borderRadius:
                                 BorderRadius.all(Radius.circular(20))),
                       ),
+                      child: Container(
+                        decoration: BoxDecoration(
+                            color: Colors.blue,
+                            border: Border.all(
+                              color: Colors.blue,
+                            ),
+                            borderRadius:
+                                BorderRadius.all(Radius.circular(10))),
+                      ),
                     )
                   : DragTarget<int>(
                       builder: (
@@ -114,7 +114,9 @@ class _MyHomePageState extends State<MyHomePage> {
                       ) {
                         return Container(
                             decoration: BoxDecoration(
+                          
                           border: Border.all(
+
                             color: Colors.blue,
                           ),
                           borderRadius: BorderRadius.all(_isDragging
